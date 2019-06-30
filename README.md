@@ -1,2 +1,2 @@
  # Bindergen
-A REST API utilizing Binderhub's API Endpoint for creating binder environments
+A REST API utilising Binderhub's API Endpoint for creating binder environments
