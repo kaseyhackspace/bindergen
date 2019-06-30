@@ -1,0 +1,14 @@
+[Unit]
+Description=Hackspace Timer Service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash timer.sh
+WorkingDirectory=/home/ubuntu/bindergen
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

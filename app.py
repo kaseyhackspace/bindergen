@@ -20,7 +20,7 @@ def missing_arg(arg):
 @app.route('/')
 def hello():
     print(request.args)
-    return str(type())
+    return jsonify(request.args)
 
 # handles building and redirecting
 @app.route('/build', methods=['GET'])
