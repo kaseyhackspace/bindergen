@@ -10,4 +10,6 @@ A REST API utilising Binderhub's API Endpoint for creating binder environments
 6. `source env/bin/activate`
 7. `pip install -r requirements.txt`
 8. `sudo cp bindergen.service /etc/systemd/system`
-9. 
+9. `sudo systemctl enable binderhub`
+10. `sudo systemctl start binderhub`
+11. `sudo systemctl status binderhub`
