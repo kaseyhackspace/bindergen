@@ -1,9 +1,9 @@
 [Unit]
-Description=Hackspace Timer Service
+Description=Bindergen Service
 After=network.target
 
 [Service]
-ExecStart=/bin/bash timer.sh
+ExecStart=/bin/bash bindergen.sh
 WorkingDirectory=/home/ubuntu/bindergen
 StandardOutput=inherit
 StandardError=inherit
